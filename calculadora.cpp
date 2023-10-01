@@ -5,13 +5,13 @@ int main(int argc, char *argv[]) {
 	double num1, num2, resultado;
 	char operador;
 	
-	cout << "Ingrese un lo que desee realizar (+, -, *, /): ";
+	cout << "Ingrese lo que desee realizar (+, -, *, /): ";
 	cin >> operador;
 	
-	cout << "Ingrese el primer número: ";
+	cout << "Ingrese el primer nÃºmero: ";
 	cin >> num1;
 	
-	cout << "Ingrese el segundo número: ";
+	cout << "Ingrese el segundo nÃºmero: ";
 	cin >> num2;
 	
 	switch (operador) {
@@ -28,12 +28,12 @@ int main(int argc, char *argv[]) {
 		if (num2 != 0) {
 			resultado = num1 / num2;
 		} else {
-			cout << "Error: División por cero." <<endl;
+			cout << "Error: DivisiÃ³n por cero." <<endl;
 			return 1;
 		}
 		break;
 	default:
-		cout << "Operador no válido." <<endl;
+		cout << "Operador no vÃ¡lido." <<endl;
 		return 1; 
 	}
 	
