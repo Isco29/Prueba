@@ -4,9 +4,11 @@ using namespace std;
 int main(int argc, char *argv[]) {
 	double num1, num2, resultado;
 	char operador;
-	
-	
 
+	cout <<"ingrese operacion a realizar (+,-,*,/)";
+	cinn>> operador;
+	cout << "Ingrese el primer número: ";
+	cin >> num2;
 	
 	cout << "Ingrese el segundo número: ";
 	cin >> num2;
