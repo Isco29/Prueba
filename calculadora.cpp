@@ -5,8 +5,6 @@ int main(int argc, char *argv[]) {
 	double num1, num2, resultado;
 	char operador;
 	
-	cout << "Ingrese lo que desee realizar (+, -, *, /): ";
-	cin >> operador;
 	
 	cout << "Ingrese el primer número: ";
 	cin >> num1;
@@ -36,6 +34,7 @@ int main(int argc, char *argv[]) {
 		cout << "Operador no válido." <<endl;
 		return 1; 
 	}
+	
 	
 	cout << "Resultado: " << resultado <<endl;
 	return 0;
