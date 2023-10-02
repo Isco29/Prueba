@@ -6,8 +6,7 @@ int main(int argc, char *argv[]) {
 	char operador;
 	
 	
-	cout << "Ingrese el primer número: ";
-	cin >> num1;
+
 	
 	cout << "Ingrese el segundo número: ";
 	cin >> num2;
